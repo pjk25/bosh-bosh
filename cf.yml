@@ -2,19 +2,16 @@
   path: /vm_extensions/-
   value:
     name: cf-router-network-properties
-    cloud_properties:
-      target_pool: cf-router
+    cloud_properties: {}
 
 - type: replace
   path: /vm_extensions/-
   value:
     name: cf-tcp-router-network-properties
-    cloud_properties:
-      target_pool: cf-tcp-router
+    cloud_properties: {}
 
 - type: replace
   path: /vm_extensions/-
   value:
     name: diego-ssh-proxy-network-properties
-    cloud_properties:
-      target_pool: diego-ssh-proxy
+    cloud_properties: {}
