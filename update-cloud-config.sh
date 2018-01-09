@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 
+cd "$(dirname "$0")"
+
 set -euxo pipefail
-
-ls
-
-which bosh
 
 bosh -n update-cloud-config cloud-config.yml \
   -o two-workers.yml \
