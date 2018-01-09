@@ -1,31 +1,31 @@
 - type: replace
-  path: /vm_types/name=default/machine_type
+  path: /vm_types/name=default/cloud_properties/machine_type
   value: g1-small
 
 - type: replace
-  path: /vm_types/name=minimal/machine_type
+  path: /vm_types/name=minimal/cloud_properties/machine_type
   value: g1-small
 
 - type: replace
-  path: /vm_types/name=small/machine_type
+  path: /vm_types/name=small/cloud_properties/machine_type
   value: n1-standard-1
 
 - type: replace
-  path: /vm_types/name=small-highmem/machine_type
+  path: /vm_types/name=small-highmem/cloud_properties/machine_type
   value: n1-highmem-2
 
 - type: replace
-  path: /vm_types/name=medium/machine_type
+  path: /vm_types/name=medium/cloud_properties/machine_type
   value: n1-standard-2
 
 - type: replace
-  path: /vm_types/name=large/machine_type
+  path: /vm_types/name=large/cloud_properties/machine_type
   value: n1-standard-4
 
 - type: replace
-  path: /vm_types/name=extra-large/machine_type
+  path: /vm_types/name=extra-large/cloud_properties/machine_type
   value: n1-standard-8
 
 - type: replace
-  path: /vm_types/name=small-highcpu/machine_type
+  path: /vm_types/name=small-highcpu/cloud_properties/machine_type
   value: n1-highcpu-1
