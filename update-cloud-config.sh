@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+
 bosh -n update-cloud-config cloud-config.yml \
   -o two-workers.yml \
   -o smaller-vms.yml \
