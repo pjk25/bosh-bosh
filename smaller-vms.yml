@@ -1,0 +1,31 @@
+- type: replace
+  path: /vm_types/name=default/machine_type
+  value: g1-small
+
+- type: replace
+  path: /vm_types/name=minimal/machine_type
+  value: g1-small
+
+- type: replace
+  path: /vm_types/name=small/machine_type
+  value: n1-standard-1
+
+- type: replace
+  path: /vm_types/name=small-highmem/machine_type
+  value: n1-highmem-2
+
+- type: replace
+  path: /vm_types/name=medium/machine_type
+  value: n1-standard-2
+
+- type: replace
+  path: /vm_types/name=large/machine_type
+  value: n1-standard-4
+
+- type: replace
+  path: /vm_types/name=extra-large/machine_type
+  value: n1-standard-8
+
+- type: replace
+  path: /vm_types/name=small-highcpu/machine_type
+  value: n1-highcpu-1
