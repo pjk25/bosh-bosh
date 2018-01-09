@@ -15,7 +15,7 @@ compilation:
   vm_extensions:
   - 100GB_ephemeral_disk
   vm_type: n1-highcpu-8
-  workers: 2
+  workers: 6
 disk_types:
 - cloud_properties:
     encrypted: true
