@@ -186,9 +186,6 @@ vm_extensions:
 - cloud_properties:
     preemptible: true
   name: preemptible
-- cloud_properties:
-    target_pool: bbl-env-balkhash-2018-01-04t10-25z-concourse
-  name: lb
 vm_types:
 - cloud_properties:
     machine_type: n1-standard-1
