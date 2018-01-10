@@ -14,10 +14,6 @@ variable "credentials" {
   type = "string"
 }
 
-provider "google" {
-  credentials = "${var.credentials}"
-  project     = "${var.project_id}"
-  region      = "${var.region}"
-}
+provider "google" {}
 
 resource "google_compute_network" "bbl-network" {}
