@@ -2,7 +2,7 @@
 
 set -euxo pipefail
 
-pushd bosh-bosh
+cd bosh-bosh
 
 terraform init
 
