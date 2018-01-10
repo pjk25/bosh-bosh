@@ -10,4 +10,4 @@ terraform import \
   google_compute_network.bbl-network \
   ${NETWORK_NAME}
 
-terraform plan
+terraform plan -var env_id=${ENV_ID}
