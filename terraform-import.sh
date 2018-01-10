@@ -9,3 +9,5 @@ terraform init
 terraform import \
   google_compute_network.bbl-network \
   ${NETWORK_NAME}
+
+terraform plan
