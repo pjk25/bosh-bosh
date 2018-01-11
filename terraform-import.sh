@@ -11,5 +11,5 @@ terraform import \
   google_compute_network.bbl-network \
   ${NETWORK_NAME}
 
-ls
-ls terraform
+ls -al
+ls -al terraform
