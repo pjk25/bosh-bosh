@@ -7,7 +7,9 @@ cp terraform-in/terraform.tfstate .
 
 terraform init
 
-terraform plan \
+terraform apply \
+  -auto-approve \
   -var env_id=${ENV_ID} \
   -var ssl_certificate="${CERTIFICATE}" \
-  -var ssl_certificate_private_key="${PRIVATE_KEY}"
+  -var ssl_certificate_private_key="${PRIVATE_KEY}" \
+  -state-out terraform-out/terraform.tfstate
