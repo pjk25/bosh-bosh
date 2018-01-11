@@ -10,6 +10,3 @@ terraform import \
   -state-out terraform/terraform.tfstate \
   google_compute_network.bbl-network \
   ${NETWORK_NAME}
-
-ls -al
-ls -al terraform
