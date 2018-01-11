@@ -7,7 +7,7 @@ cp bosh-bosh/shim.tf bosh-bosh/template.tf .
 terraform init
 
 terraform import \
-  -state-out terraform \
+  -state-out terraform/terraform.tfstate \
   google_compute_network.bbl-network \
   ${NETWORK_NAME}
 
