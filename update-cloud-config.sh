@@ -2,6 +2,8 @@
 
 set -euxo pipefail
 
+ls -al terraform-outputs
+
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 bosh -n update-cloud-config ${SCRIPT_DIR}/cloud-config.yml \
