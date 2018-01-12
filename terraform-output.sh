@@ -2,4 +2,6 @@
 
 set -euxo pipefail
 
-terraform output -state terraform-in/terraform.tfstate | tee terraform-outputs/terraform.tfvars
+terraform output \
+  -state terraform-in/terraform.tfstate \
+  -json | tee terraform-outputs/terraform.tfvars.json
