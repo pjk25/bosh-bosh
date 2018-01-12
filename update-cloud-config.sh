@@ -2,7 +2,7 @@
 
 set -euxo pipefail
 
-ls -al terraform-outputs
+cat terraform-outputs/terraform.tfvars
 
 export SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
