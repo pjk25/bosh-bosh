@@ -15,6 +15,5 @@ bosh -n update-cloud-config ${SCRIPT_DIR}/cloud-config.yml \
   -o ${SCRIPT_DIR}/smaller-vms.yml \
   -o ${SCRIPT_DIR}/adjust-networks.yml \
   -o ${SCRIPT_DIR}/disable-external-ips.yml \
-  -o ${SCRIPT_DIR}/cf.yml \
   -o ${SCRIPT_DIR}/cf-lbs.yml \
   -l terraform.tfvars.json
