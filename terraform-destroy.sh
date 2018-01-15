@@ -28,6 +28,9 @@ terraform destroy \
   -target google_compute_forwarding_rule.cf-ssh-proxy \
   -target google_compute_firewall.cf-tcp-router \
   -target google_compute_address.cf-tcp-router \
+  -target google_compute_http_health_check.cf-tcp-router \
+  -target google_compute_forwarding_rule.cf-tcp-router \
+  -target google_compute_target_pool.cf-tcp-router \
   -target google_compute_http_health_check.cf-http-router \
   -target google_compute_target_pool.cf-http-router \
   -target google_compute_forwarding_rule.cf-http-router \
