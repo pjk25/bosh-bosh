@@ -43,4 +43,5 @@ terraform destroy \
   -target google_compute_instance_group.router-lb-1 \
   -target google_compute_instance_group.router-lb-2 \
   -target google_compute_backend_service.router-lb-backend-service \
+  -force \
   -state-out terraform-out/terraform.tfstate
